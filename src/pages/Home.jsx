@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import React from "react";
 
 import MovieTemplate from "../components/MovieTemplate";
+import './MovieGrid.css'
 
 const api_url = process.env.REACT_APP_API_URL;
 const api_key = process.env.REACT_APP_API_KEY;
