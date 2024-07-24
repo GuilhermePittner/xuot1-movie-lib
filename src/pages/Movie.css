@@ -1,0 +1,45 @@
+.movie-poster {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2em 0em;
+}
+
+.movie-poster h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.movie-poster p {
+    margin-top: 1em;
+}
+
+.movie-poster img {
+    max-width: 30%;
+    display: block;
+    margin: auto;
+}
+
+.movie-poster svg {
+    margin-right: 0.3em;
+    color: #F7D354;
+}
+
+.movie-overview {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 5em;
+}
+
+.movie-overview svg {
+    margin-right: 0.3em;
+    color: #F7D354;
+}
+
+.div-overview{
+    margin: 0.4em 0;
+}
